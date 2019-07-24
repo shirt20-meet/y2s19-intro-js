@@ -1,0 +1,136 @@
+h1 {color: red}
+body {
+    background-color: white;
+    color: black;
+}
+
+.backgroundColor {
+	background-color: lightcoral;
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#centerText{
+	text-align: center;
+}
+
+#leftUp{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#leftUpDown{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+/*#center11{
+	position: relative;
+	left: 960px;
+}*/
+
+#leftUp:hover {
+	color: pink;
+}
+
+@keyframes bounceIn {
+	0% {
+		transform: scale(0.1);
+	}
+	60% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+h1 {
+	animation-name: bounceIn;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.rightUp{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.rightUp2:hover{
+	color:darkblue;
+}
+
+#blank {
+	height: 1000px;
+}
+
+@keyframes disco {
+	0% {
+		background-color: white;
+	}
+	5.5% {
+		background-color: snow;
+	}
+	11% {
+		background-color: honeydew;
+	}
+	16.5% {
+		background-color: mintcream; 
+	}
+	22% {
+		background-color: azure;
+	}
+	27.5% {
+		background-color: aliceblue;
+	}
+	33% {
+		background-color: ghostwhite;
+	}
+	38.5% {
+		background-color: whitesmoke;
+	}
+	44% {
+		background-color: seashell;
+	}
+	49.5% {
+		background-color: beige;
+	}
+	55% {
+		background-color: oldlace;
+	}
+	60.5% {
+		background-color: floralwhite;
+	}
+	66% {
+		background-color: ivory;
+	}
+	71.5% {
+		background-color: antiquewhite;
+	}
+	77% {
+		background-color: linen;
+	}
+	82.5% {
+		background-color: lavenderblush;
+	}
+	88% {
+		background-color: mistyrose;
+	}
+	93.5% {
+		background-color: navajowhite;
+	}
+	100% {
+		background-color: lightpink;
+	}
+}
+
+
+body {
+	animation-name: disco;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}

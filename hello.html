@@ -1,15 +1,89 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>JavaScript Hello World</title>
-    <script src="hello.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="hello.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<title>Shir Tanchuma</title>
 </head>
-
 <body>
-    <h1>A JavaScript Hello, World!</h1>
 
-    
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#myBtn").click(function(){
+				$(this).css("color", "red");
+			})
+		})
+	</script>
+
+	<h1 style= "text-align: center;"> shir's website </h1>
+	
+	<p style= "text-align: center;"> my name is shir tanchuma. <br> im 16 years old. </p> 
+	
+	<div style= "text-align: center;">
+	<a href = "https://www.google.com/" style= "text-align: center;"> google </a>
+	</div>
+
+	<br>
+	
+	<div style= "text-align: center;">
+		<img src= "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif" height="200">
+	</div>
+	<br>
+
+	<div class="backgroundColor" width=300> 
+		<form>
+			<p> choose how many brothers i have </p>
+			<input type="radio" name="firstName" value="1"> 1<br>
+			<input type="radio" name="firstName" value="2"> 2<br>
+			<input type="radio" name="firstName" value="3"> 3
+		</form>
+	</div>
+
+	<br>
+
+	<div class="backgroundColor" id="center11">
+		<center><table border="1">
+			<tr>
+				<th> people </th>
+				<th> how much i love them</th>
+			</tr>
+			<tr>
+				<td> amit </td> <td> 2/10 </td>
+			</tr>
+			<tr>
+				<td> maya </td> <td> 10/10 </td>
+			</tr>
+		</table><center>
+	</div>
+
+	<br>
+
+	<div id="centerText">
+		<input type="text" name="name" value="Name">
+	</div>
+
+	<p id="myBtn" style= "text-align: center;"> press on me </p>
+	<a href="file:///home/student/Documents/y2s19-intro-js/newPage.html">link!</a>
+
+	<br>
+	<div id="leftUpDown">
+		<h3> here is a few facts about me </h3>
+		<ol>
+			<li> i have two dogs </li>
+			<li> i was vegetarian for 8 years </li>
+			<li> my dream is to travel all over the world </li>
+		</ol>
+	</div>
+
+	<h2 id="leftUp"> hello everyone!! </h2>
+
+	<div class="rightUp rightUp2">
+		<h3> fun fact - Amit is stupid!! </h3>
+	</div>
+
+	<div id="blank">
+	</div>
+
 </body>
-
 </html>
